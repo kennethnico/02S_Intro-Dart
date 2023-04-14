@@ -1,3 +1,5 @@
+//Especificar que es un objeto de tipo Future
+
 /*Future
 * Representa principalmente el acuerdo de una operación asincrona
 * Es una promesa de que pronto tendrás un valor
@@ -13,8 +15,6 @@ void main(){
           });
   print('Fin del Programa');
 }
-
-//Especificar que es un objeto de tipo Future
 Future<String> httpGet(String url){
   return Future.delayed(const Duration(seconds: 1),(){
     throw 'Error en la petición HTTP';
