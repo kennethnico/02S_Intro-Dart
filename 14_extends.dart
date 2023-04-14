@@ -1,5 +1,6 @@
 //Extends
-/**/
+/*Aplica el principio de Herencia
+* Significa que yo heredo toda la clase Padre*/
 void main(){
   //final windPlant = EnergyPlant(); //No se puede instanciar una clase abstracta
   final windPlant = WindPlant(initialEnergy: 100);
